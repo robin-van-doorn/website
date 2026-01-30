@@ -148,9 +148,14 @@ body {
   margin-top: 3rem;
 }
 
-/* toggle label */
+/* ===============================
+   ARCHIEF TOGGLE – TYPOGRAFISCH
+   =============================== */
 
 details summary {
+  position: relative;
+  padding-left: 1.2rem;
+
   cursor: pointer;
   list-style: none;
 
@@ -158,29 +163,28 @@ details summary {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #666;
-
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
 }
 
 details summary::-webkit-details-marker {
   display: none;
 }
 
-/* pijl */
+/* pijl hangt in de marge */
 
 .toggle-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+
   width: 1rem;
-  display: inline-block;
   text-align: center;
   color: #666;
 }
 
-/* open toestand */
+/* draai pijl bij openen */
 
-details[open] .toggle-icon {
-  content: "▾";
+details[open] summary .toggle-icon {
+  transform: rotate(90deg);
 }
 
 /* inhoud onder toggle */
@@ -192,14 +196,4 @@ details[open] .toggle-icon {
   color: #555;
 }
 
-/* kleine afstand onder openklappen
-
-details[open] {
-  margin-top: 3.5rem;
-}
-*/
-
-details[open] summary .toggle-icon {
-  transform: rotate(90deg);
-}
 
