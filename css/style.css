@@ -210,5 +210,12 @@ details[open] summary .toggle-icon {
   font-size: 0.95rem;
   color: #444;
 }
+.award-note {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #666;
+}
 
 
