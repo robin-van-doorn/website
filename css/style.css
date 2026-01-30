@@ -431,6 +431,15 @@ details[open] summary .toggle-icon {
   color: #444;
 }
 
+.archive-section {
+  padding-left: 1.5rem;
+}
+
+.archive-section:not(:first-child) {
+  border-left: 1px solid #d8d4cc;
+}
+
+
 /* ===============================
    MOBIEL
    =============================== */
