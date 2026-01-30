@@ -84,22 +84,8 @@ body {
 }
 
 /* ===============================
-   SITE-NAVIGATIE (BINNENPAGINA'S)
+   SITE-NAVIGATIE – DEFINITIEF
    =============================== */
-
-.site-nav {
-  max-width: 900px;
-  margin: 2rem auto 0;
-  padding-left: 3.2rem;
-}
-
-.site-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 2rem;
-}
 
 .site-nav a {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -109,6 +95,11 @@ body {
   color: #444;
 }
 
+.site-nav a:visited {
+  color: #444;
+}
+
 .site-nav a:hover {
   text-decoration: underline;
 }
+
