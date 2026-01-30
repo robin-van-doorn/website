@@ -82,3 +82,33 @@ body {
 .navigation a:hover {
   text-decoration: underline;
 }
+
+/* ===============================
+   SITE-NAVIGATIE (BINNENPAGINA'S)
+   =============================== */
+
+.site-nav {
+  max-width: 900px;
+  margin: 2rem auto 0;
+  padding-left: 3.2rem;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.site-nav a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+  text-decoration: none;
+  color: #444;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
