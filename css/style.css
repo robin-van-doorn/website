@@ -450,6 +450,11 @@ details[open] summary .toggle-icon {
   border-left: 1px solid #d8d4cc;
 }
 
+.page.inner.fragments h1 {
+  margin-left: 1.5rem;
+}
+
+
 
 /* ===============================
    MOBIEL
