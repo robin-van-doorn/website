@@ -129,3 +129,14 @@ body {
 .page.inner {
   padding-top: 8vh;
 }
+
+/* ===============================
+   WERKEN – REGISTRATIENOTITIE
+   =============================== */
+
+.registry-note {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: #555;
+  font-style: italic;
+}
