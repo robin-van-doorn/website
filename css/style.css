@@ -403,6 +403,17 @@ details[open] summary .toggle-icon {
   text-decoration: underline;
 }
 
+.page.inner.fragments h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: #1a1a1a;
+  margin-bottom: 2.8rem;
+}
+
+
 /* meta-informatie */
 
 .entry-meta {
