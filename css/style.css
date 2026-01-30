@@ -168,3 +168,28 @@ body {
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
+
+/* ===============================
+   ARCHIEF TOGGLE
+   =============================== */
+
+details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 0.6rem;
+}
+
+details[open] summary {
+  margin-bottom: 1rem;
+}
