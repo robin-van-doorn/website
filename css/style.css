@@ -163,10 +163,11 @@ body {
 }
 
 .alt-author {
-  font-size: 0.95rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.4rem;
 }
 
 /* ===============================
