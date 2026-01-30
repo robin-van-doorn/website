@@ -141,41 +141,27 @@ body {
   font-style: italic;
 }
 /* ===============================
-   WERKEN – FASE 2 SCHADUWLAAG
+   WERKEN – SCHADUWLAAG (GECONSOLIDEERD)
    =============================== */
 
 .works-section {
   margin-top: 3rem;
 }
 
-.works-section h2 {
+/* archieflabels zoals: Robin van Doorn / Onder andere naam */
+
+.works-section h2,
+details summary {
   font-size: 0.85rem;
   font-weight: normal;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #666;
   margin-bottom: 0.4rem;
+  cursor: pointer;
 }
-
-.alt-name {
-  margin-top: 4rem;
-  color: #444;
-}
-
-.alt-author {
-  font-family: "Libre Baskerville", serif;
-  font-size: 0.85rem;
-  font-style: italic;
-  color: #666;
-  margin-bottom: 0.4rem;
-}
-
-/* ===============================
-   ARCHIEF TOGGLE
-   =============================== */
 
 details summary {
-  cursor: pointer;
   list-style: none;
 }
 
@@ -183,28 +169,27 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
-details summary {
-  font-size: 0.85rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #666;
-  margin-bottom: 0.6rem;
-}
-/* ===============================
-   WERKEN – LICHT / DONKER LAAG
-   =============================== */
+/* schaduwregister */
 
 .alt-name {
   margin-top: 4rem;
-  padding-top: 1.8rem;
-  border-top: 1px solid #d6d1c9;
+  padding: 1.8rem 1.2rem 1.5rem;
+
+  background: #ede9e1;       /* ouder papier */
+  border-top: 1px solid #d2cdc4;
 }
 
-.alt-name {
-  background: rgba(0, 0, 0, 0.015);
-  padding-left: 1rem;
-  padding-right: 1rem;
+/* Pan Robinson — aanwezig maar ingetogen */
+
+.alt-author {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;           /* gelijk aan lopende tekst */
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.4rem;
 }
+
+/* open toestand van toggle */
 
 details[open] summary {
   margin-bottom: 1rem;
