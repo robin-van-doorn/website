@@ -45,13 +45,13 @@ body {
    =============================== */
 
 .author {
-  margin-top: 1.6rem;
+  margin-top: 1.2rem;   /* was 1.6rem */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.85rem;   /* iets kleiner */
-  letter-spacing: 0.24em; /* iets ruimer */
-  color: #666;          /* iets lichter */
+  font-size: 0.85rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #666;
 }
-
 
 /* ===============================
    NAVIGATIE
