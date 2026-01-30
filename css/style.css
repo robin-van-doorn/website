@@ -190,6 +190,21 @@ details summary {
   color: #666;
   margin-bottom: 0.6rem;
 }
+/* ===============================
+   WERKEN – LICHT / DONKER LAAG
+   =============================== */
+
+.alt-name {
+  margin-top: 4rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid #d6d1c9;
+}
+
+.alt-name {
+  background: rgba(0, 0, 0, 0.015);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
 details[open] summary {
   margin-bottom: 1rem;
