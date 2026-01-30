@@ -103,3 +103,10 @@ body {
   text-decoration: underline;
 }
 
+/* ===============================
+   BINNENPAGINA – COMPACTERE RUIMTE
+   =============================== */
+
+.page.inner {
+  padding-top: 8vh;
+}
