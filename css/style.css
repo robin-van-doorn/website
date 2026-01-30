@@ -136,6 +136,11 @@ body {
   padding-top: 8vh;
 }
 
+.page.inner p {
+  font-size: 1rem;
+}
+
+
 /* ===============================
    WERKEN – REGISTRATIENOTITIE
    =============================== */
@@ -265,10 +270,13 @@ details[open] summary .toggle-icon {
    =============================== */
 
 .page h1 {
-  font-size: 1rem;
-  letter-spacing: 0.18em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.75rem;
+  font-weight: normal;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  color: #666;
+  margin-bottom: 2.2rem;
 }
 
 .bio {
