@@ -140,3 +140,28 @@ body {
   color: #555;
   font-style: italic;
 }
+/* ===============================
+   WERKEN – FASE 2 SCHADUWLAAG
+   =============================== */
+
+.works-section {
+  margin-top: 3rem;
+}
+
+.works-section h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.alt-name {
+  margin-top: 4rem;
+  color: #444;
+}
+
+.alt-author {
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
