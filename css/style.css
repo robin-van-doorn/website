@@ -149,9 +149,12 @@ body {
 }
 
 .works-section h2 {
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: normal;
-  margin-bottom: 0.5rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 0.4rem;
 }
 
 .alt-name {
