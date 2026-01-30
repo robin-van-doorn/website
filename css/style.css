@@ -355,3 +355,90 @@ details[open] summary .toggle-icon {
   font-style: italic;
 }
 
+/* ===============================
+   FRAGMENTEN – ARCHIEFSTRUCTUUR
+   =============================== */
+
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 2.5rem;
+}
+
+/* sectiekoppen */
+
+.archive-section h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.75rem;
+  font-weight: normal;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 1.4rem;
+}
+
+/* lijst */
+
+.archive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.archive-list li {
+  margin-bottom: 1.1rem;
+}
+
+/* titel */
+
+.archive-list a {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.archive-list a:hover {
+  text-decoration: underline;
+}
+
+/* meta-informatie */
+
+.entry-meta {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+/* ===============================
+   CATEGORIE – SUBTIELE TINTEN
+   =============================== */
+
+.archive-section:nth-child(1) {
+  color: #1a1a1a;
+}
+
+.archive-section:nth-child(2) {
+  color: #333;
+}
+
+.archive-section:nth-child(3) {
+  color: #444;
+}
+
+/* ===============================
+   MOBIEL
+   =============================== */
+
+@media (max-width: 900px) {
+  .archive-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
