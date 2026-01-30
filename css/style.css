@@ -192,8 +192,14 @@ details[open] .toggle-icon {
   color: #555;
 }
 
-/* kleine afstand onder openklappen */
+/* kleine afstand onder openklappen
 
 details[open] {
   margin-top: 3.5rem;
 }
+*/
+
+details[open] summary .toggle-icon {
+  transform: rotate(90deg);
+}
+
