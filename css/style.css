@@ -243,12 +243,11 @@ details[open] summary .toggle-icon {
 /* ===============================
    VOORPAGINA – OVERBLIJFSEL
    =============================== */
-
 .remainder {
-  margin-top: 1.6rem;   /* was ±3rem */
-  margin-left: 32%;
+  margin-top: 1.2rem;   /* dichter bij tekst */
+  margin-left: 38%;     /* verder naar rechts */
   width: 120px;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 .remainder svg {
