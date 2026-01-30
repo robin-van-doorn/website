@@ -226,4 +226,17 @@ details[open] summary .toggle-icon {
 .publication-link:hover {
   text-decoration: underline;
 }
+/* ===============================
+   VOORPAGINA – OVERBLIJFSEL (PLAATSHOUDER)
+   =============================== */
+
+.remainder-placeholder {
+  width: 100px;
+  height: 70px;
+
+  margin-top: 3rem;
+  margin-left: 20%;
+
+  opacity: 0.3;
+}
 
