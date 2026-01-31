@@ -213,6 +213,7 @@ details summary::-webkit-details-marker {
   width: 1rem;
   text-align: center;
   color: #666;
+    pointer-events: none;
 }
 
 /* draai pijl bij openen */
