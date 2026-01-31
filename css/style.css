@@ -573,6 +573,11 @@ details[open] summary .toggle-icon {
   .archive-list li {
     margin-bottom: 1.6rem;
   }
+    details summary {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+       line-height: 1.6;
+  }
 
 }
 
