@@ -289,14 +289,10 @@ details[open] summary .toggle-icon {
 }
 
 /* ===============================
-   CONTACTPAGINA
+   CONTACT – DEFINITIEF
    =============================== */
 
-/* ===============================
-   CONTACT – TYPOGRAFIE
-   =============================== */
-
-.page.inner.contact h1 {
+.page.contact h1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0.22em;
@@ -305,27 +301,28 @@ details[open] summary .toggle-icon {
   margin-bottom: 2rem;
 }
 
-.contact-name {
+.page.contact .contact-name {
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
   color: #1a1a1a;
   margin-bottom: 1rem;
 }
 
-.contact-details {
+.page.contact .contact-details {
   font-size: 0.95rem;
   color: #444;
   margin-bottom: 1.4rem;
 }
 
-.contact-details a {
+.page.contact .contact-details a {
   color: inherit;
   text-decoration: none;
 }
 
-.contact-details a:hover {
+.page.contact .contact-details a:hover {
   text-decoration: underline;
 }
+
 
 /* ===============================
    FOTO Placeholder
