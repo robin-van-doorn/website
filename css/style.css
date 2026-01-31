@@ -332,8 +332,8 @@ details[open] summary .toggle-icon {
 /* OVER — container */
 .about-layout {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
-  align-items: flex-start;  /* gelijk aan top */
 }
 
 
@@ -493,5 +493,23 @@ details[open] summary .toggle-icon {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
+}
+
+/* ===============================
+   MEDIA
+   =============================== */
+
+@media (min-width: 900px) {
+
+  .about-layout {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .about-image {
+    margin-top: 0.2rem;
+  }
+
 }
 
