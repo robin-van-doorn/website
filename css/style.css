@@ -37,20 +37,18 @@ body {
   content: "";
   display: block;
 
-  width: 90px;
+  width: 70px;
   height: 1px;
 
   margin-top: 0.6rem;
 
   background: #1a1a1a;
-  opacity: 0.25;
+  opacity: 0.22;
 
-  transform: rotate(-1.5deg);
-}
-
-.page h1::after {
+  transform: rotate(-1.2deg);
   filter: blur(0.2px);
 }
+
 
 /* ===============================
    OPENINGSTEKST
