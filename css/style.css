@@ -320,6 +320,8 @@ details[open] summary .toggle-icon {
    OVER PAGINA
    =============================== */
 
+
+
 .page.inner.over h1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.75rem;
@@ -502,14 +504,20 @@ details[open] summary .toggle-icon {
 @media (min-width: 900px) {
 
   .about-layout {
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: row;      /* naast elkaar op breed scherm */
+    align-items: flex-start;  /* bovenlijnen gelijk */
     gap: 3rem;
   }
 
+  .about-text {
+    flex: 1;                 /* tekst neemt de meeste ruimte */
+    min-width: 0;            /* voorkomt overflow */
+  }
+
   .about-image {
-    margin-top: 0.2rem;
+    flex-shrink: 0;          /* afbeelding behoudt formaat */
   }
 
 }
+
 
