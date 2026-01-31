@@ -33,6 +33,24 @@ body {
   padding-top: 8vh;
 }
 
+.page h1::after {
+  content: "";
+  display: block;
+
+  width: 110px;
+  height: 2px;
+
+  margin-top: 0.6rem;
+
+  background: #1a1a1a;
+  opacity: 0.25;
+
+  transform: rotate(-1.5deg);
+}
+
+.page h1::after {
+  filter: blur(0.2px);
+}
 
 /* ===============================
    OPENINGSTEKST
