@@ -445,7 +445,7 @@ details[open] .archive-toggle::before {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #444;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.8rem;
 }
 
 .about-text p {
