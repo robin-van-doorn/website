@@ -423,7 +423,6 @@ details[open] .archive-toggle::before {
 
 .about-image {
   flex-shrink: 0;
-   margin-top: 0.0rem;
 }
 
 .portrait-placeholder {
@@ -573,24 +572,39 @@ details[open] .archive-toggle::before {
    MEDIA
    =============================== */
 
+/* ===============================
+   MEDIA
+   =============================== */
+
 @media (min-width: 900px) {
 
   .about-layout {
-    flex-direction: row;      /* naast elkaar op breed scherm */
-    align-items: flex-start;  /* bovenlijnen gelijk */
+    flex-direction: row;
+    align-items: flex-start;
     gap: 3rem;
   }
 
   .about-text {
-    flex: 1;                 /* tekst neemt de meeste ruimte */
-    min-width: 0;            /* voorkomt overflow */
+    flex: 1;
+    min-width: 0;
   }
 
   .about-image {
-    flex-shrink: 0;          /* afbeelding behoudt formaat */
+    flex-shrink: 0;
+    margin-top: 1.9rem;
   }
 
 }
+
+
+@media (max-width: 700px) {
+
+  .page {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    padding-top: 10vh;
+  }
+
 
 @media (max-width: 700px) {
 
