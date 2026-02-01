@@ -47,18 +47,16 @@ body {
   content: "";
   display: block;
 
-  width: 48px;
-  height: 2px;
+  width: 70px;
+  height: 1px;
 
-  margin-top: 0.8rem;
-  margin-left: 0.2rem;
+  margin-top: 0.6rem;
 
-  background: rgba(26, 26, 26, 0.25);
+  background: #1a1a1a;
+  opacity: 0.22;
 
-  transform: rotate(-1.8deg);
-  filter: blur(0.6px);
-
-  border-radius: 2px;
+  transform: rotate(-1.2deg);
+  filter: blur(0.2px);
 }
 
 /* ===============================
