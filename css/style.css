@@ -302,7 +302,7 @@ details[open] .archive-toggle::before {
 }
 
 /* ===============================
-   CONTACT – DEFINITIEF
+   CONTACT — COLOFONSTIJL
    =============================== */
 
 .page.contact h1 {
@@ -311,30 +311,61 @@ details[open] .archive-toggle::before {
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #666;
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
 }
+
+/* naam — verwant aan Over, maar rustiger */
 
 .page.contact .contact-name {
-  font-family: "Libre Baskerville", serif;
-  font-size: 1rem;
-  color: #1a1a1a;
-  margin-bottom: 1rem;
-}
-
-.page.contact .contact-details {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: #444;
-  margin-bottom: 1.4rem;
+  margin-bottom: 2.2rem;
 }
 
-.page.contact .contact-details a {
+/* blokken */
+
+.page.contact .contact-block {
+  margin-bottom: 1.8rem;
+}
+
+/* labels — administratief */
+
+.page.contact .contact-label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 0.3rem;
+}
+
+/* waarden */
+
+.page.contact .contact-value {
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+/* links — zelfde stilte als Werken */
+
+.page.contact .contact-value a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: rgba(0,0,0,0.25);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
-.page.contact .contact-details a:hover {
-  text-decoration: underline;
+.page.contact .contact-value a:hover {
+  text-decoration-color: rgba(0,0,0,0.45);
 }
+
 
 
 /* ===============================
