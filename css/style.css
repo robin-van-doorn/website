@@ -270,27 +270,14 @@ details[open] .archive-toggle::before {
   //text-decoration: underline;
    text-decoration-color: rgba(0,0,0,0.45);
 }
-/* ===============================
-   VOORPAGINA – OVERBLIJFSEL (PLAATSHOUDER)
-   =============================== 
-
-.remainder-placeholder {
-  width: 100px;
-  height: 70px;
-
-  margin-top: 3rem;
-  margin-left: 20%;
-
-  opacity: 0.3;
-}
-*/
-/* ===============================
+//* ===============================
    VOORPAGINA – OVERBLIJFSEL
    =============================== */
+
 .remainder {
-  margin-top: 1.2rem;   /* dichter bij tekst */
-  margin-left: 38%;     /* verder naar rechts */
-  width: 120px;
+  margin-top: 1.6rem;
+  margin-left: 28%;
+  width: 180px;
   opacity: 0.85;
 }
 
