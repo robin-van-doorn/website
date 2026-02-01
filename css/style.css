@@ -587,6 +587,11 @@ details[open] .archive-toggle::before {
        line-height: 1.6;
   }
 
+  .page.inner {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+
 }
 
 
