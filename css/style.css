@@ -500,7 +500,7 @@ details[open] .archive-toggle::before {
 .archive-list a:hover {
   text-decoration: underline;
 }
-
+/*
 .page.inner.fragments h1 {
   font-family: "Libre Baskerville", serif;
   font-size: 1.2rem;
@@ -510,7 +510,7 @@ details[open] .archive-toggle::before {
   color: #1a1a1a;
   margin-bottom: 2.8rem;
 }
-
+*/
 
 /* meta-informatie */
 
