@@ -341,9 +341,7 @@ details[open] .archive-toggle::before {
   text-decoration-color: rgba(0,0,0,0.45);
 }
 
-
 /* waarden */
-
 .page.contact .contact-value {
   font-family: "Libre Baskerville", serif;
   font-size: 0.95rem;
@@ -352,7 +350,6 @@ details[open] .archive-toggle::before {
 }
 
 /* links — zelfde stilte als Werken */
-
 .page.contact .contact-value a {
   color: inherit;
   text-decoration: underline;
@@ -364,8 +361,6 @@ details[open] .archive-toggle::before {
 .page.contact .contact-value a:hover {
   text-decoration-color: rgba(0,0,0,0.45);
 }
-
-
 
 /* ===============================
    FOTO Placeholder
@@ -406,7 +401,6 @@ details[open] .archive-toggle::before {
   flex-direction: column;
   gap: 2rem;
 }
-
 
 .about-text {
   max-width: 520px;
@@ -451,7 +445,6 @@ details[open] .archive-toggle::before {
 .about-text p {
   color: #444;
 }
-
 
 /* ===============================
    FRAGMENTEN – ARCHIEFSTRUCTUUR
