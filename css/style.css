@@ -434,9 +434,9 @@ details[open] .archive-toggle::before {
 
 .about-name {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.95rem;
-  font-weight: bold;
-  letter-spacing: 0.12em;
+  font-size: 0.9rem;
+  font-weight: normal;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #444;
   margin-bottom: 0.8rem;
