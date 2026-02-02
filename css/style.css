@@ -563,18 +563,6 @@ details[open] .archive-toggle::before {
   margin-left: 1.5rem;
 }
 
-
-/* ===============================
-   MOBIEL
-   =============================== */
-
-@media (max-width: 900px) {
-  .archive-grid {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-}
-
 /* ===============================
    MEDIA
    =============================== */
@@ -599,6 +587,11 @@ details[open] .archive-toggle::before {
     margin-top: 1.9rem;
   }
 }
+
+
+/* ===============================
+   MOBIEL
+   =============================== */
 
 @media (max-width: 900px) {
 
