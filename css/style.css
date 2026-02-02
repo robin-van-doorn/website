@@ -525,6 +525,23 @@ details[open] .archive-toggle::before {
 }
 
 /* ===============================
+   FRAGMENTEN — TEKENRUIMTE
+   =============================== */
+
+.archive-mark {
+  height: 60px;               /* vaste ruimte */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1.6rem;
+}
+
+.archive-mark svg {
+  display: block;
+}
+
+/* ===============================
    CATEGORIE – SUBTIELE TINTEN
    =============================== */
 
