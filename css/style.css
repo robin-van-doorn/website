@@ -394,7 +394,6 @@ details[open] .archive-toggle::before {
   color: #666;
 }
 
-
 /* OVER — container */
 .about-layout {
   display: flex;
@@ -504,6 +503,24 @@ details[open] .archive-toggle::before {
   margin-bottom: 2.8rem;
 }
 */
+/* fragmenten – categorie titel als link */
+
+.archive-section h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.archive-section h2 a:hover {
+  text-decoration: underline;
+}
+
+.fragment-narrative-date {
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1.6rem;
+}
 
 /* meta-informatie */
 
@@ -585,11 +602,11 @@ details[open] .archive-toggle::before {
 
 .fragment-date {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.7rem;
-  letter-spacing: 0.18em;
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #777;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2.8rem;
 }
 
 /* korte inleiding */
