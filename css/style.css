@@ -588,6 +588,83 @@ details[open] .archive-toggle::before {
   }
 }
 
+/* ===============================
+   CATEGORIEPAGINA’S — ARCHIEFBLAD
+   =============================== */
+
+.page.inner.category h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 1.6rem;
+}
+
+/* korte registratienotitie */
+
+.category-note {
+  max-width: 520px;
+  margin-bottom: 2.6rem;
+
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* lijst van fragmenten */
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 3.5rem 0;
+}
+
+.category-list li {
+  margin-bottom: 1.6rem;
+}
+
+/* titel van fragment */
+
+.category-list a {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.05rem;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.category-list a:hover {
+  text-decoration: underline;
+}
+
+/* meta onder titel */
+
+.category-list .entry-meta {
+  display: block;
+  margin-top: 0.25rem;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+/* teruglink */
+
+.category-back {
+  font-size: 0.85rem;
+}
+
+.category-back a {
+  color: #444;
+  text-decoration: none;
+}
+
+.category-back a:hover {
+  text-decoration: underline;
+}
+
 
 /* ===============================
    MOBIEL
