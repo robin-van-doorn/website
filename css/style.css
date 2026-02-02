@@ -522,12 +522,11 @@ details[open] .archive-toggle::before {
    =============================== */
 
 .archive-mark {
-  height: 60px;               /* vaste ruimte */
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
 }
 
 .archive-mark svg {
