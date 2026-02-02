@@ -427,6 +427,22 @@ details[open] .archive-toggle::before {
   font-style: italic;
 }
 
+.about-portrait {
+  margin: 0;
+}
+
+.about-portrait img {
+  display: block;
+  width: 180px;
+  height: auto;
+
+  filter: grayscale(100%);
+  opacity: 0.92;
+
+  border: 1px solid #d6d1c9;
+}
+
+
 /* ===============================
    OVER – TYPOGRAFIE
    =============================== */
@@ -876,4 +892,10 @@ details[open] .archive-toggle::before {
   .fragment-intro {
     margin-bottom: 2.4rem;
   }
+
+  .about-portrait img {
+    width: 140px;
+    margin-bottom: 1.6rem;
+  }
+
 }
