@@ -606,12 +606,13 @@ details[open] .archive-toggle::before {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
-}
 
      .archive-section {
     padding-left: 0;
     border-left: none;
   }
+}
+
 
 @media (max-width: 700px) {
 
