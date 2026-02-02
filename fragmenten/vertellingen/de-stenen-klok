@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>De stenen klok — Robin van Doorn</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../../css/style.css">
+</head>
+
+<body>
+
+  <nav class="site-nav">
+    <ul>
+      <li><a href="../../../index.html">Voorblad</a></li>
+      <li><a href="../../../werken/">Werken</a></li>
+      <li><a href="../../../fragmenten/">Fragmenten</a></li>
+      <li><a href="../../../over/">Over</a></li>
+      <li><a href="../../../contact/">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="page inner fragment-entry">
+
+    <!-- titelblok -->
+    <header class="fragment-header">
+      <h1>De stenen klok</h1>
+      <p class="fragment-date">13 februari 1945</p>
+    </header>
+
+    <!-- korte inleiding -->
+    <p class="fragment-intro">
+      Een vertelling vanuit steen en geheugen, tijdens de verwoesting van Dresden.
+    </p>
+
+    <!-- inhoud -->
+    <div class="fragment-body">
+
+      <!-- beeld -->
+      <figure class="fragment-image">
+        <img src="dresden-ruins.jpg" alt="Ruïnes van Dresden na het bombardement">
+        <figcaption>Ruïnes van Dresden, 1945</figcaption>
+      </figure>
+
+      <!-- tekst -->
+      <div class="fragment-text">
+
+        <p>
+          Ze komen in zwermen, als een Egyptische plaag gezonden door Mozes.
+          De eerste vliegtuigen werpen de kerstbomen; een sardonische koosnaam
+          voor de parachutefakkels die de hemel deden schitteren.
+        </p>
+
+        <p>
+          Onheilssterren, die de vliegtuigen door het donker lokken naar mijn stad
+          langs de Elbe. Onder het schelle gezang van de sirenes kruipen mijn
+          stadsgenoten in kelders en tunnels, zoekend naar veiligheid.
+        </p>
+
+        <p>
+          Honderden toestellen, aangedreven door propellers, dompelen met de precisie
+          van een uurwerk de stad in een inferno. In de crypte roert zich mijn kudde;
+          driehonderd mannen, vrouwen en kinderen opeengepakt, terwijl buiten de
+          vlammenzee op mijn koepel neerdaalt.
+        </p>
+
+        <p>
+          Ach, mijn arme kudde, die het kruis boven mijn altaar verwisselde voor een
+          ander – één zo zwart als de nacht en aangescherpt met vileine haken, geplant
+          in een veld van bloed.
+        </p>
+
+        <p>
+          Tussen de rook en het vuur zie ik mijn geliefde Dresden vergaan. De stad
+          waarvan ik tweehonderd jaar een inwoner ben geweest.
+        </p>
+
+        <p>
+          In de verte doorstaan de torens van mijn zusters – de Katholische Hofkirche
+          en Kreuzkirche – het bombardement, terwijl de vlammen likken aan mijn voeten
+          en de rook mijn interieur blakert in ontelbare tinten zwart.
+        </p>
+
+        <p>
+          Tot aan het ochtendgloren houd ik stand. Mensen huilen in mijn crypte.
+          Het is voor hen dat ik volhard; al kraak en kreun ik bij iedere inslag.
+        </p>
+
+        <p>
+          Ik weet dat mijn tijd is gekomen, doch blijf ik staan. In de verzengende
+          hitte houd ik mijn pilaren overeind.
+        </p>
+
+        <p>
+          Een voor een stroomt de kudde uit mijn lijf; mijn gesteente bros,
+          mijn tijdsbesef vergaan.
+        </p>
+
+        <p>
+          Ik gedenk de dag dat Johann Sebastian Bach mijn toetsen beroerde en ik
+          kortstondig meer was dan steen.
+        </p>
+
+        <p>
+          De keren dat de mooiste liederen in mijn binnenste klonken, maar bovenal
+          herinner ik het samenzijn en het lief en leed dat ik met mijn stadsgenoten
+          heb gedeeld.
+        </p>
+
+        <p>
+          Vanuit mijn toren aanschouw ik een laatste maal de waanzin die oorlog heet.
+          Steen en mortel kraken wanneer het laatste kind de crypte verlaat.
+        </p>
+
+        <p>
+          Dan bezwijken mijn voeten als die van een oud paard en stort ik in.
+        </p>
+
+        <p class="fragment-divider">***</p>
+
+        <p>
+          Duisternis; gebeente bijeengeraapt, genummerd en bewaard.
+          Decennia verstrijken in leegte tot ik ontwaak.
+        </p>
+
+        <p>
+          Mijn stad is gebleven – met nieuwe buren, oude vrienden en de Elbe
+          die mij herkent.
+        </p>
+
+        <p class="fragment-signature">
+          – Frauenkirche, Dresden
+        </p>
+
+      </div>
+    </div>
+
+    <!-- terug -->
+    <p class="fragment-back">
+      <a href="../">← Terug naar Vertellingen</a>
+    </p>
+
+  </main>
+
+</body>
+</html>
