@@ -564,6 +564,119 @@ details[open] .archive-toggle::before {
 }
 
 /* ===============================
+   FRAGMENT — INDIVIDUEEL DOCUMENT
+   =============================== */
+
+.page.inner.fragment-entry {
+  padding-top: 8vh;
+}
+
+/* titel + datum */
+
+.fragment-header h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.4rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #1a1a1a;
+  margin-bottom: 0.4rem;
+}
+
+.fragment-date {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 2.4rem;
+}
+
+/* korte inleiding */
+
+.fragment-intro {
+  max-width: 520px;
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 3.2rem;
+}
+
+/* hoofdinhoud */
+
+.fragment-body {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+/* beeld */
+
+.fragment-image {
+  flex-shrink: 0;
+  width: 200px;
+  margin: 0;
+}
+
+.fragment-image img {
+  width: 100%;
+  display: block;
+  filter: grayscale(100%);
+  opacity: 0.85;
+}
+
+.fragment-image figcaption {
+  margin-top: 0.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+/* tekst */
+
+.fragment-text {
+  max-width: 520px;
+}
+
+.fragment-text p {
+  margin-bottom: 1.4rem;
+}
+
+/* scheiding */
+
+.fragment-divider {
+  letter-spacing: 0.3em;
+  color: #777;
+  margin: 2.6rem 0;
+}
+
+/* ondertekening */
+
+.fragment-signature {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #444;
+}
+
+/* teruglink */
+
+.fragment-back {
+  margin-top: 4rem;
+  font-size: 0.85rem;
+}
+
+.fragment-back a {
+  color: #444;
+  text-decoration: none;
+}
+
+.fragment-back a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
    MEDIA
    =============================== */
 
@@ -683,6 +796,15 @@ details[open] .archive-toggle::before {
   }
 }
 
+  .fragment-body {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .fragment-image {
+    width: 100%;
+    max-width: 360px;
+  }
 
 @media (max-width: 700px) {
 
@@ -729,5 +851,12 @@ details[open] .archive-toggle::before {
   .archive-mark svg {
     transform: scale(0.8);
     transform-origin: left center;
+  }
+     .fragment-header h1 {
+    font-size: 1.2rem;
+  }
+
+  .fragment-intro {
+    margin-bottom: 2.4rem;
   }
 }
