@@ -608,6 +608,11 @@ details[open] .archive-toggle::before {
   }
 }
 
+     .archive-section {
+    padding-left: 0;
+    border-left: none;
+  }
+
 @media (max-width: 700px) {
 
   .page {
@@ -643,11 +648,6 @@ details[open] .archive-toggle::before {
   .page.inner {
     padding-left: 1.4rem;
     padding-right: 1.4rem;
-  }
-
-     .archive-section {
-    padding-left: 0;
-    border-left: none;
   }
 
      .archive-mark {
