@@ -525,12 +525,14 @@ details[open] .archive-toggle::before {
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+
   margin-bottom: 1.8rem;
 }
 
 .archive-mark svg {
   display: block;
+   margin-left: 0.2rem;
 }
 
 /* ===============================
