@@ -550,6 +550,19 @@ details[open] .archive-toggle::before {
   color: #777;
 }
 
+/* fragmenten – inleiding */
+
+.fragments-intro {
+  max-width: 520px;
+  margin-bottom: 3.2rem;
+
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #555;
+
+  line-height: 1.7;
+}
+
 /* ===============================
    FRAGMENTEN — TEKENRUIMTE
    =============================== */
