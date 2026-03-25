@@ -672,7 +672,7 @@ details[open] .archive-toggle::before {
   width: 100%;
   display: block;
   /* filter: grayscale(100%); */
-  opacity: 0.85;
+  opacity: 1;
 }
 
 .fragment-image figcaption {
