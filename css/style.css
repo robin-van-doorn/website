@@ -727,6 +727,35 @@ details[open] .archive-toggle::before {
 }
 
 /* ===============================
+   NOTITIES — ALTERNATIEVE LAYOUT
+   =============================== */
+
+.fragment-body.alt-layout {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+/* kleinere afbeelding */
+
+.fragment-image.small {
+  width: 160px;
+}
+
+/* mobiel gedrag */
+
+@media (max-width: 900px) {
+  .fragment-body.alt-layout {
+    flex-direction: column;
+  }
+
+  .fragment-image.small {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
+/* ===============================
    MEDIA
    =============================== */
 
