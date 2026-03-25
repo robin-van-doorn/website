@@ -567,6 +567,11 @@ details[open] .archive-toggle::before {
   position: relative;
 }
 
+.fragment-body.alt-layout .fragment-image img {
+  filter: none;
+  opacity: 1;
+}
+
 /* ===============================
    FRAGMENTEN — TEKENRUIMTE
    =============================== */
