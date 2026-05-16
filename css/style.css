@@ -86,6 +86,43 @@ body {
 }
 
 /* ===============================
+   FRONTPAGE — FOTO
+   =============================== */
+
+.front-image {
+  margin: 2.5rem 0 4rem;
+}
+
+.front-image img {
+  display: block;
+
+  width: 86%;
+  max-width: 760px;
+  height: auto;
+
+  filter: grayscale(100%);
+  opacity: 0.94;
+
+  transform: rotate(-0.6deg);
+
+  border: 1px solid rgba(0,0,0,0.12);
+}
+
+/* mobiel */
+
+@media (max-width: 700px) {
+
+  .front-image {
+    margin: 2rem 0 3rem;
+  }
+
+  .front-image img {
+    width: 100%;
+    transform: none;
+  }
+}
+
+/* ===============================
    NAVIGATIE
    =============================== */
 
