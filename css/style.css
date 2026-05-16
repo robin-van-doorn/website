@@ -69,7 +69,8 @@ body {
 
 .fragment {
   margin: 0 0 1.1rem;
-  font-size: 1.2rem;       /* iets groter */
+  font-size: 1.02rem;       /* iets groter */
+   line-height 1.7;
 }
 
 /* ===============================
@@ -90,14 +91,14 @@ body {
    =============================== */
 
 .front-image {
-  margin: 2.5rem 0 4rem;
+  margin: 2rem 0 2.2rem;
 }
 
 .front-image img {
   display: block;
 
-  width: 86%;
-  max-width: 760px;
+  width: 100%;
+  max-width: 980px;
   height: auto;
 
   filter: grayscale(100%);
