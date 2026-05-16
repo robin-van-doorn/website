@@ -97,9 +97,11 @@ body {
 .front-image img {
   display: block;
 
-  width: 100%;
-  max-width: 980px;
+  width: 118%;
+  max-width: none;
   height: auto;
+
+  margin-left: -6%;
 
   filter: grayscale(100%);
   opacity: 0.94;
