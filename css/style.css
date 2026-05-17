@@ -540,7 +540,7 @@ details[open] .archive-toggle::before {
 
 /* ===============================
    FRAGMENTEN – ARCHIEFSTRUCTUUR
-   =============================== */
+   ===============================
 
 .archive-grid {
   display: grid;
@@ -642,6 +642,102 @@ details[open] .archive-toggle::before {
   opacity: 0.9;
 
   position: relative;
+}
+*/
+
+/* ===============================
+   FRAGMENTEN — STROOM
+   =============================== */
+
+.fragment-stream {
+  margin-top: 3rem;
+}
+
+/* individueel fragment */
+
+.fragment-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+
+  padding: 1.8rem 0;
+
+  border-top: 1px solid #d8d4cc;
+}
+
+/* laatste lijn onderaan */
+
+.fragment-item:last-child {
+  border-bottom: 1px solid #d8d4cc;
+}
+
+/* symbool */
+
+.fragment-symbol {
+  flex-shrink: 0;
+
+  width: 68px;
+
+  opacity: 0.95;
+}
+
+/* tekstblok */
+
+.fragment-content {
+  flex: 1;
+}
+
+/* kleine metadata */
+
+.fragment-meta-line {
+  margin: 0 0 0.45rem;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+
+  color: #777;
+}
+
+/* titel */
+
+.fragment-content h2 {
+  margin: 0;
+
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.08rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.fragment-content h2 a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.fragment-content h2 a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   MOBIEL
+   =============================== */
+
+@media (max-width: 700px) {
+
+  .fragment-item {
+    gap: 1rem;
+    padding: 1.4rem 0;
+  }
+
+  .fragment-symbol {
+    width: 54px;
+  }
+
+  .fragment-content h2 {
+    font-size: 1rem;
+  }
 }
 
 /* ===============================
