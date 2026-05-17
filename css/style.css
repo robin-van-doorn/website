@@ -701,14 +701,15 @@ details[open] .archive-toggle::before {
 }
 
 /* titel */
-
 .fragment-content h2 {
   margin: 0;
 
   font-family: "Libre Baskerville", serif;
-  font-size: 1.08rem;
+  font-size: 1.18rem;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.45;
+
+  color: #161616;
 }
 
 .fragment-content h2 a {
