@@ -23,6 +23,59 @@
 
     gtag('js', new Date());
     gtag('config', 'G-BL4DZSRZ8Q');
+
+    <!-- Silktide Consent Manager -->
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+  <link
+    rel="stylesheet"
+    id="silktide-consent-manager-css"
+    href="https://cdn.jsdelivr.net/gh/silktide/consent-manager@v2.0.0/silktide-consent-manager.css"
+    integrity="sha384-IO1E/jCrQXyH5rwcI0SXP7OXw47JFqQNDQcKhbFvqnL2IunBxxwE2Ne5XyAmCqKs"
+    crossorigin="anonymous"
+  >
+
+  <script
+    src="https://cdn.jsdelivr.net/gh/silktide/consent-manager@v2.0.0/silktide-consent-manager.js"
+    integrity="sha384-j4NIMOecmtzMWe9GJADIIe5hTlHG63aiTQ/2XorW10RNyQJg+IU+xwFVDy45wBah"
+    crossorigin="anonymous">
+  </script>
+
+  <script>
+    window.silktideConsentManager.init({
+
+      backdrop: {
+        show: true
+      },
+
+      icon: {
+        position: "bottomLeft"
+      },
+
+      prompt: {
+        position: "bottomLeft"
+      },
+
+      consentTypes: [
+        {
+          id: "essential",
+          label: "Essential",
+          description: "<p>Necessary cookies required for the website to function properly.</p>",
+          required: true
+        },
+        {
+          id: "analytics",
+          label: "Analytics",
+          description: "<p>Anonymous analytics used to understand how visitors use the site.</p>",
+          required: false,
+          gtag: "analytics_storage"
+        }
+      ]
+
+    });
+  </script>
+    
   </script>
 
   <link rel="stylesheet" href="css/style.css?v=9">
