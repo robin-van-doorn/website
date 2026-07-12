@@ -980,13 +980,8 @@ details[open] .archive-toggle::before {
 .essay-source {
   margin: 0.9rem 0 3rem;
 
-  font-size: 0.76rem;
-
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
 
   letter-spacing: 0.08em;
 
