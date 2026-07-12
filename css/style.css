@@ -1044,22 +1044,21 @@ details[open] .archive-toggle::before {
 .essay-opening-quote {
   margin: 0 0 0.8rem;
   padding: 0;
-
-  border: 0;
+  border: none;
 }
 
 .essay-opening-quote p {
   margin: 0;
 
-  font-size: 1.42rem;
-  line-height: 1.55;
+  max-width: 650px;
+
+  font-size: 1.55rem;      /* was 1.15 / 1.4 */
+  line-height: 1.5;
 
   font-style: italic;
   font-weight: 400;
 
-  color: #262626;
-
-  max-width: 640px;
+  color: #222;
 }
 
 /* ===============================
